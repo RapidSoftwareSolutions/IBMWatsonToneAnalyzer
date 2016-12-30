@@ -4,7 +4,7 @@ module.exports.do = function(req, res){
         "tagline": "IBMWatsonToneAnalyzer API Package",
         "keywords": ["API"],
         "description": "The Tone Analyzer service uses linguistic analysis to detect emotional tones, social propensities, and writing styles in written communication.",
-        'image': 'https://avatars0.githubusercontent.com/u/9221727?v=3&s=200',
+        'image': 'http://www.contegix.com/wp-content/uploads/2016/10/ToneAnalyzer.svg',
         'repo': 'https://github.com/RapidSoftwareSolutions/Marketplace-IBMWatsonToneAnalyzer-Package',
         'accounts': {
             "domain": "https://www.ibm.com/watson?ref=rapidapi",
