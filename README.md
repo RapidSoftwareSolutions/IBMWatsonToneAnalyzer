@@ -9,10 +9,6 @@ The Tone Analyzer service uses linguistic analysis to detect emotional tones, so
 2. Connect Natural Language Classifier to your application at the left side, choose pricing plan and click on 'Create' button at the bottom of the page.
 3. Click on 'Service Credentials' tab to see your username and password.
 
-## How to get credentials: 
-0. Item one 
-1. Item two 
-
 ## IBMWatsonToneAnalyzer.analyzeToneFromText
 Analyzes the tone of a piece of text. The message is analyzed for several tones - social, emotional, and language. For each tone, various traits are derived. For example, conscientiousness, agreeableness, and openness.
 
