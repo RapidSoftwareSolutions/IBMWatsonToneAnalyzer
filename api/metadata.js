@@ -33,12 +33,6 @@ module.exports.do = function(req, res){
                     required: true
                 },
                 {
-                    name: "version",
-                    type: "String",
-                    info: "When we make breaking changes to the API, we release a new, dated version. The value for the version parameter is the date for the version of the API that you want to call. The current version is 2016-05-19, and the documentation reflects the current version.",
-                    required: false
-                },
-                {
                     name: "tones",
                     type: "String",
                     info: "Filter the results by a specific tone. Valid values for tones are `emotion`, `language`, and `social`.",
@@ -71,14 +65,8 @@ module.exports.do = function(req, res){
                 {
                     name: "html",
                     type: "String",
-                    info: "Text that contains the content to be analyzed. The Tone Analyzer Service supports up to 128KB of text, or about 1000 sentences. Sentences with less than three words cannot be analyzed.",
+                    info: " HTML document that contains the content to be analyzed. The Tone Analyzer Service supports up to 128KB of text, or about 1000 sentences. Sentences with less than three words cannot be analyzed.",
                     required: true
-                },
-                {
-                    name: "version",
-                    type: "String",
-                    info: "When we make breaking changes to the API, we release a new, dated version. The value for the version parameter is the date for the version of the API that you want to call. The current version is 2016-05-19, and the documentation reflects the current version.",
-                    required: false
                 },
                 {
                     name: "tones",

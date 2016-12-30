@@ -35,7 +35,7 @@ module.exports = (req, res) => {
         auth: {username, password},
         uri: 'https://gateway.watsonplatform.net/tone-analyzer/api/v3/tone',
         method: 'POST',
-        json: {text: text}
+        body: text
     }, (err, response, reslut) => {
         if(!err && (/20.*/).test(response.statusCode))  
             defered.resolve(lib.safeParse(reslut));
