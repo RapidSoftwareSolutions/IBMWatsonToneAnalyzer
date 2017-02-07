@@ -1,3 +1,5 @@
+[![](https://scdn.rapidapi.com/RapidAPI_banner.png)](https://rapidapi.com/package/IBMWatsonToneAnalyzer/functions?utm_source=RapidAPIGitHub_IBMToneFunctions&utm_medium=button&utm_content=RapidAPI_GitHub)
+
 # IBMWatsonToneAnalyzer Package
 The Tone Analyzer service uses linguistic analysis to detect emotional tones, social propensities, and writing styles in written communication.
 * Domain: https://www.ibm.com/watson?ref=rapidapi
