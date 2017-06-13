@@ -34,7 +34,8 @@ module.exports.do = function(req, res){
                 },
                 {
                     name: "tones",
-                    type: "String",
+                    type: "Select",
+                    options:["emotion", "language", "social"],
                     info: "Filter the results by a specific tone. Valid values for tones are `emotion`, `language`, and `social`.",
                     required: false
                 },
@@ -44,7 +45,7 @@ module.exports.do = function(req, res){
                     info: "Filter your response to remove the sentence level analysis. Valid values for sentences are true and false. This parameter defaults to true when it's not set, which means that a sentence level analysis is automatically provided. Change `sentences=false` to filter out the sentence level analysis.",
                     required: false
                 }
-            ], 
+            ],
             'callbacks':[{'name':'error','info':'Error'}, {'name':'success','info':'Success'}]
         }, {
             "name":"analyzeToneFromHtml",
@@ -70,7 +71,8 @@ module.exports.do = function(req, res){
                 },
                 {
                     name: "tones",
-                    type: "String",
+                    type: "Select",
+                    options:["emotion", "language", "social"],
                     info: "Filter the results by a specific tone. Valid values for tones are `emotion`, `language`, and `social`.",
                     required: false
                 },
@@ -80,7 +82,7 @@ module.exports.do = function(req, res){
                     info: "Filter your response to remove the sentence level analysis. Valid values for sentences are true and false. This parameter defaults to true when it's not set, which means that a sentence level analysis is automatically provided. Change `sentences=false` to filter out the sentence level analysis.",
                     required: false
                 }
-            ], 
+            ],
             'callbacks':[{'name':'error','info':'Error'}, {'name':'success','info':'Success'}]
         }]
     })
