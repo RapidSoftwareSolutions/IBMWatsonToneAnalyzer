@@ -2,7 +2,7 @@
 
 # IBMWatsonToneAnalyzer Package
 The Tone Analyzer service uses linguistic analysis to detect emotional tones, social propensities, and writing styles in written communication.
-* Domain: https://www.ibm.com/watson?ref=rapidapi
+* Domain: [ibm.com](https://www.ibm.com/watson)
 * Credentials: username, password
 
 ## How to get credentials:
